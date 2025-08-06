@@ -51,10 +51,3 @@ Best practices for generating realistic Monte Carlo samples with MadGraph, inclu
 - Multi-parton final states
 
 ---
-
-## ✅ Requirements
-
-Ensure the following system-level tools are available on all cluster nodes:
-
-```bash
-sudo dnf install gcc-c++ gcc-fortran make cmake

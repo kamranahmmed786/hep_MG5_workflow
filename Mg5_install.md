@@ -13,7 +13,8 @@ This guide provides instructions for setting up system dependencies, installing 
 - [5. Install External Tools from MG5 Interface](#5-install-external-tools-from-mg5-interface)
 - [6. Configure MadGraph5 for Multicore Mode](#6-configure-madgraph5-for-multicore-mode)
 - [7. Test Process Submission](#7-test-process-submission)
-
+- [8. Generate Realistic Physics Samples](#8-generate-realistic-physics-samples)
+ 
 ---
 
 ## 1. Install System Packages

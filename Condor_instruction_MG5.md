@@ -90,3 +90,9 @@ launch
 This will generate a basic NLO top quark pair production process and submit it to the Condor cluster.
 
 ---
+
+## 8. Generate Realistic Physics Samples
+
+To understand how to generate realistic physics samples correctly using MG5, see the following guide:
+
+* [Sample Generation Guide](sample_generation.md)

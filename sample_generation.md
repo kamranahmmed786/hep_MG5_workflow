@@ -103,6 +103,6 @@ PDF:pSet = LHAPDF6:NNPDF31_nnlo_as_0118
 
 ## 5. Sample Cards
 
-Sample configuration cards for several commonly used processes are available in the [`/cards`](./cards) directory of this repository. You can use them as templates and modify according to your analysis.
+Sample configuration cards for several commonly used processes are available in the [`/Cards`](./Cards) directory of this repository. You can use them as templates and modify according to your analysis.
 
 ---

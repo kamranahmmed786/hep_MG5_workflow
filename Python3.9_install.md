@@ -5,12 +5,12 @@ A step-by-step guide to compile and install Python 3.9.19 with shared library su
 ---
 
 ## Table of Contents
-- [Step 1: Download Python Source](#-step-1-download-python-3919-source-code)
-- [Step 2: Extract and Navigate](#-step-2-extract-the-archive-and-enter-source-directory)
-- [Step 3: Configure and Build](#️-step-3-configure-and-build-python-with-shared-libraries)
-- [Step 4: Setup Shared Libraries](#-step-4-configure-dynamic-linker-to-find-python-shared-library)
-- [Step 5: Verify Shared Libs](#-step-5-confirm-shared-library-is-installed)
-- [Step 6: Environment Setup](#-step-6-add-python-39-to-your-environment)
+- [Step 1: Download Python Source](#step-1-download-python-3919-source-code)
+- [Step 2: Extract and Navigate](#step-2-extract-the-archive-and-enter-source-directory)
+- [Step 3: Configure and Build](#step-3-configure-and-build-python-with-shared-libraries)
+- [Step 4: Setup Shared Libraries](#step-4-configure-dynamic-linker-to-find-python-shared-library)
+- [Step 5: Verify Shared Libs](#step-5-confirm-shared-library-is-installed)
+- [Step 6: Environment Setup](#step-6-add-python-39-to-your-environment)
 
 ---
 

@@ -45,10 +45,11 @@ Instructions for installing system dependencies on both **submitter** and **work
 **File:** [`sample_generation.md`](sample_generation.md)
 
 Best practices for generating realistic Monte Carlo samples with MadGraph, including:
-- PDF and scale choices
-- Cuts and filters
-- Matching/merging settings
-- Multi-parton final states
+- Choosing the correct model: 4F vs 5F schemes
+- Using MadSTR for diagram removal (DR) in single-top processes
+- Applying FxFx merging in NLO samples to avoid double counting
+- Setting up run_card.dat and shower_card.dat for proper cuts and merging
+- Applying TuneCP5 parameters in Pythia8 for realistic parton showering
 
 ---
 

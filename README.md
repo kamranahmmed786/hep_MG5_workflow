@@ -34,7 +34,7 @@ Install and configure [MadGraph5_aMC@NLO](https://launchpad.net/mg5amcnlo) with 
 
 ### 4. Cluster-Wide Setup and Submission
 
-**File:** [`cluster_mg5_setup.md`](Condor_instructions_MG5.md)
+**File:** [`cluster_mg5_setup.md`](Condor_instruction_MG5.md)
 
 Instructions for installing system dependencies on both **submitter** and **worker nodes**, configuring MG5 for Condor execution, and testing NLO process generation.
 

@@ -51,3 +51,12 @@ Best practices for generating realistic Monte Carlo samples with MadGraph, inclu
 - Multi-parton final states
 
 ---
+
+## Contributions
+
+Contributions are welcome and appreciated!
+
+If you find a bug, have an idea for improvement, or want to add new features or cards, feel free to open an issue or submit a pull request.  
+Please make sure to follow the existing style and structure.
+
+If you're not sure where to start, check out the [Issues](https://github.com/kamranahmmed786/hep_MG5_workflow/issues) page.

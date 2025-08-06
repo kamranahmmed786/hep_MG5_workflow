@@ -1,6 +1,6 @@
-# MadGraph5 Cluster Installation and Configuration
+# MadGraph5 Configuration And Sample Generation
 
-This repository provides detailed step-by-step instructions for installing and configuring the following software components required for High Energy Physics simulations using **MadGraph5_aMC@NLO** on a Condor-based cluster.
+This repository provides detailed step-by-step instructions for installing and configuring the following software components required for High Energy Physics simulations using **MadGraph5_aMC@NLO** on a Condor-based cluster and a standalone PC.
 
 Each guide is modular and focused on a specific part of the installation process.
 
@@ -28,7 +28,7 @@ Instructions to build and configure [LHAPDF6](https://lhapdf.hepforge.org/) from
 
 **File:** [`Mg5_install.md`](Mg5_install.md)
 
-Install and configure [MadGraph5_aMC@NLO](https://launchpad.net/mg5amcnlo) with multicore or Condor-based cluster support. Includes instructions for installing optional dependencies like LHAPDF and Pythia8 inside MG5.
+Install and configure [MadGraph5_aMC@NLO](https://launchpad.net/mg5amcnlo) with multicore support. Includes instructions for installing optional dependencies like LHAPDF and Pythia8 inside MG5.
 
 ---
 

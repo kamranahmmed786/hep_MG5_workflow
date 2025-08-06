@@ -13,6 +13,7 @@ This guide explains how to install system dependencies, Python, MadGraph5, and o
 - [4. Install LHAPDF (Optional)](#4-install-lhapdf-optional)
 - [5. Configure and Run MadGraph5 in Cluster Mode](#5-configure-and-run-madgraph5-in-cluster-mode)
 - [6. Test Process Submission](#6-test-process-submission)
+- [7. Generate Realistic Physics Samples](#7-generate-realistic-physics-samples)
 
 ---
 
@@ -91,7 +92,7 @@ This will generate a basic NLO top quark pair production process and submit it t
 
 ---
 
-## 8. Generate Realistic Physics Samples
+## 7. Generate Realistic Physics Samples
 
 To understand how to generate realistic physics samples correctly using MG5, see the following guide:
 

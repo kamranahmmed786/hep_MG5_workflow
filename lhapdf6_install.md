@@ -46,6 +46,25 @@ Run the configuration script with a custom installation prefix:
 
 Replace `/path/to/LHAPDF` with the full path where you want LHAPDF installed (e.g., `/home/username/LHAPDF` or `/opt/lhapdf`).
 
+If Python 3.9 is not in your system path, and you want to configure LHAPDF with it:
+
+```bash
+# Temporarily (just for this shell session)
+PYTHON=/usr/local/bin/python3.9 ./configure --prefix=/path/to/LHAPDF
+```
+
+OR
+
+```bash
+# Permanently (add to ~/.bashrc or ~/.bash_profile)
+export PYTHON=/usr/local/bin/python3.9
+```
+
+Then
+
+```bash
+./configure --prefix=/path/to/LHAPDF
+```
 ---
 
 ## 4. Compile and Install

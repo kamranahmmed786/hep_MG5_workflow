@@ -94,6 +94,7 @@ ls /usr/local/lib | grep libpython3.9.so
 ```bash
 export PATH="/usr/local/bin:$PATH"
 alias python3=/usr/local/bin/python3.9
+alias python=/usr/local/bin/python3.9
 alias pip3=/usr/local/bin/pip3.9
 ```
 
@@ -104,6 +105,7 @@ To make this permanent, add the above lines to your `~/.bashrc` or `~/.bash_prof
 ```bash
 echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bashrc
 echo 'alias python3=/usr/local/bin/python3.9' >> ~/.bashrc
+echo 'alias python=/usr/local/bin/python3.9' >> ~/.bashrc
 echo 'alias pip3=/usr/local/bin/pip3.9' >> ~/.bashrc
 source ~/.bashrc
 ```

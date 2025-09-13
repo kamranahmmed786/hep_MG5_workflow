@@ -31,7 +31,7 @@ pdfcode      = 1 # 0 = internal, 1 = same as NLO, other = lhaglue
 ue_enabled   = F # underlying event
 hadronize    = T # hadronisation on/off        !IGNORED BY HERWIG6!
 lambda_5     = -1.0 # Lambda_5 (< 0 = default)    !IGNORED BY PYTHIA8!
-#*********************************************************************
+#*********************************************************************  Add from here
 Tune:pp 14
 Tune:ee 7
 MultipartonInteractions:ecmPow= 0.03344 
@@ -54,7 +54,7 @@ SigmaTotal:sigmaEl = 21.89
 SigmaTotal:sigmaTot = 100.309 
 PDF:pSet= LHAPDF6:NNPDF31_nnlo_as_0118 
 
-#***********************************************************************
+#*********************************************************************** till here
 # Stable or unstable particles                                         *
 #***********************************************************************
 b_stable     = F # set B hadrons stable

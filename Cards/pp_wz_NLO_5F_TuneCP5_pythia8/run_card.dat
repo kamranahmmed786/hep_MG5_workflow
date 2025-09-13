@@ -31,7 +31,7 @@
 # (relative) accuracy on the Xsec.                                     *
 # These values are ignored for fixed order runs                        *
 #***********************************************************************
-  100000	= nevents ! Number of unweighted events requested 
+  100000	= nevents ! Number of unweighted events requested              --------------------------------
   -1.0	= req_acc ! Required accuracy (-1=auto determined from nevents)
   -1	= nevt_job ! Max number of events per job in event generation. 
                  !  (-1= no split).
@@ -63,13 +63,13 @@
 #***********************************************************************
   1	= lpp1 ! beam 1 type (0 = no PDF)
   1	= lpp2 ! beam 2 type (0 = no PDF)
-  6800.0	= ebeam1 ! beam 1 energy in GeV
-  6800.0	= ebeam2 ! beam 2 energy in GeV
+  6800.0	= ebeam1 ! beam 1 energy in GeV        ---------------------------------------------
+  6800.0	= ebeam2 ! beam 2 energy in GeV        -----------------------------------------
 #***********************************************************************
 # PDF choice: this automatically fixes also alpha_s(MZ) and its evol.  *
 #***********************************************************************
-  lhapdf	= pdlabel ! PDF set
-  303600	= lhaid ! If pdlabel=lhapdf, this is the lhapdf number. Only 
+  lhapdf	= pdlabel ! PDF set                                               ----------------------------------------------
+  303600	= lhaid ! If pdlabel=lhapdf, this is the lhapdf number. Only      ----------------------------------------------
               ! numbers for central PDF sets are allowed. Can be a list; 
               ! PDF sets beyond the first are included via reweighting.
   0	= pdfscheme ! the scheme of the input PDFs. 0->MSbar; 1->DIS
@@ -117,14 +117,14 @@
             ! rw_rscale and rw_fscale factors. Should be a list of 
             ! booleans of equal length to dynamical_scale_choice to
             ! specify for which choice to include scale dependence.
-  True	= reweight_pdf ! Reweight to get PDF uncertainty. Should be a
+  True	= reweight_pdf ! Reweight to get PDF uncertainty. Should be a    ---------------------------------------------
             ! list booleans of equal length to lhaid to specify for
             !  which PDF set to include the uncertainties.
 #***********************************************************************
 # Store reweight information in the LHE file for off-line model-       *
 # parameter reweighting at NLO+PS accuracy                             *
 #***********************************************************************
-  True	= store_rwgt_info ! Store info for reweighting in LHE file
+  True	= store_rwgt_info ! Store info for reweighting in LHE file      ------------------------------------------------
 #***********************************************************************
 #  Customization of the code. List of files containing user hook function 
 #***********************************************************************
@@ -158,8 +158,8 @@
 #  - More specific cuts can be specified in SubProcesses/cuts.f        *
 #***********************************************************************
   1.0	= jetalgo ! FastJet jet algorithm (1=kT, 0=C/A, -1=anti-kT)
-  0.7	= jetradius ! The radius parameter for the jet algorithm
-  20.0	= ptj ! Min jet transverse momentum
+  1.0	= jetradius ! The radius parameter for the jet algorithm        -----------------------------------------------------
+  20.0	= ptj ! Min jet transverse momentum                             -----------------------------------------------------
   -1.0	= etaj ! Max jet abs(pseudo-rap) (a value .lt.0 means no cut)
   False	= gamma_is_j ! Wether to cluster photons as jets or not
 #***********************************************************************

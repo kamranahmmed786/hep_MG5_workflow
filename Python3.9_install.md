@@ -44,7 +44,7 @@ cd Python-3.9.19
 ###  Step 3: Configure and build Python with shared libraries
 
 ```bash
-sudo ./configure --enable-optimizations --enable-shared CFLAGS="-fPIC"
+sudo ./configure --prefix=$HOME/.local --enable-optimizations --enable-shared CFLAGS="-fPIC"
 ```
 
 * `--enable-optimizations`: Enables PGO (Profile-Guided Optimization) for better performance.
